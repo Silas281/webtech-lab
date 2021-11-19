@@ -1,0 +1,61 @@
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+    }
+    main{ 
+        width: 70%;
+        min-height: 100vh;
+        margin: auto;
+    }
+    .form-input{
+        margin: auto;
+        width: 70%;
+    }
+    .form-control{
+        width: 70%;
+    }
+    .s-content{
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .results-row {
+        width: 100%;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        padding: 10px;
+    }
+
+    .col-2{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+
+    i {
+        cursor: pointer;
+    }
+
+    .input-group{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .input-group1{
+        width: 100%;
+        margin: 50px 0;
+        
+    }
+
+    #error {
+        color: red
+    }
+
+    #pass {
+        color: green
+    }
+    
